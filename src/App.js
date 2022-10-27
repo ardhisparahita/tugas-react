@@ -4,6 +4,7 @@ import Text from './Components/Text/Text';
 import Button from './Components/Button/Button';
 import Login from './Pages/Login/Login';
 import Profile from './Pages/Profile/Profile';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Button/>
       <Login/>
       <Profile/>
+      <About/>
     </div>
   );
 }
