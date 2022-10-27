@@ -8,6 +8,7 @@ import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
 import Faq from './Pages/Faq/Faq';
 import Donate from './Pages/Donate/Donate';
+import Cart from './Components/Cart/Cart';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Home/>
       <Faq/>
       <Donate/>
+      <Cart/>
     </div>
   );
 }
