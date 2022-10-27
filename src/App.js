@@ -7,6 +7,7 @@ import Profile from './Pages/Profile/Profile';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
 import Faq from './Pages/Faq/Faq';
+import Donate from './Pages/Donate/Donate';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <About/>
       <Home/>
       <Faq/>
+      <Donate/>
     </div>
   );
 }
