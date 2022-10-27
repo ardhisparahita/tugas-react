@@ -6,6 +6,7 @@ import Login from './Pages/Login/Login';
 import Profile from './Pages/Profile/Profile';
 import About from './Pages/About/About';
 import Home from './Pages/Home/Home';
+import Faq from './Pages/Faq/Faq';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Profile/>
       <About/>
       <Home/>
+      <Faq/>
     </div>
   );
 }
