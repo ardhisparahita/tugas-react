@@ -5,6 +5,7 @@ import Button from './Components/Button/Button';
 import Login from './Pages/Login/Login';
 import Profile from './Pages/Profile/Profile';
 import About from './Pages/About/About';
+import Home from './Pages/Home/Home';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Login/>
       <Profile/>
       <About/>
+      <Home/>
     </div>
   );
 }
